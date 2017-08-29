@@ -37,7 +37,7 @@ c=[]
 for w in word:
     for e in gcode:
         if w==e:
-            print(e, gcode[e])
+            print("\t",e,"=", gcode[e])
             c.append(gcode[e])
 
-print( sum(c) )
+print( "Mispar Hekhrehi sum:\n\t", sum(c) )
