@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import re
 gcode = {   'a':1,
             'b':2,
             'c':3,
